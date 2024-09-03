@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     void SetScoreText()
     {
         scoreText.text = "Score :" + score.ToString();
-        if (score >= 5)
+        if (score >= 40)
         {
             WinText.gameObject.SetActive(true);
         }
